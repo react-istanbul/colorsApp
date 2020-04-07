@@ -1,0 +1,1 @@
+export const selectIsUserLoggedIn = s => s.login.isUserLoggedIn
