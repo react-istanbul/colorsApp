@@ -9,4 +9,4 @@ This is an event for our meetup group [ReactJS Istanbul](https://www.meetup.com/
 
 The streams are in Turkish. 
 
-[Part 1 - Project stucture, integrating Redux and React Router](https://youtu.be/CZm0mQx4pBw)
+Part 1 - Project stucture, integrating Redux and React Router - https://youtu.be/CZm0mQx4pBw
