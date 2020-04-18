@@ -1,4 +1,15 @@
 .home {
-  background: yellow;
-  border: solid 2px gray ;
+  width: 1200px;
+  margin: auto;
+}
+
+.cardsHolder {
+  background: white;
+  border-radius: 18px;
+  margin-top: 20px;
+  display: flex;
+  height: 800px; 
+  padding: 40px;
+  box-sizing: border-box;
+  /* TODO: remove this ☠️ */
 }
