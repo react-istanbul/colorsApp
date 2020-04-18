@@ -1,15 +1,5 @@
-.loginForm {
-  display: flex;
-  padding: 20px;
-  border: 1px solid #dedede;
-  flex-direction: column;
-}
-
-.loginForm label {
-  display: flex;
-  flex-direction: column;
-}
-
-.loginForm label + label {
-  margin-top: 20px;
+.loginWrapper {
+  padding-top: 100px;
+  width: 480px;
+  margin: auto;
 }

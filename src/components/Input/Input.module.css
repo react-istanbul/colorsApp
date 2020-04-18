@@ -1,0 +1,27 @@
+.input {
+  background: rgba(169, 172, 191, 0.2);
+  border: 1px solid rgba(112, 116, 145, 0.5);
+  box-sizing: border-box;
+  border-radius: 6px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 14px;
+  font-size: 16px;
+  background: rgba(169, 172, 191, 0.2);
+  width: 100%;
+}
+
+.inputHolder {
+  display: block;
+}
+
+.inputHolder + .inputHolder {
+  margin-top: 20px;
+}
+
+.label {
+  color: #433333;
+  font-size: 15px;
+  margin-bottom: 3px;
+}

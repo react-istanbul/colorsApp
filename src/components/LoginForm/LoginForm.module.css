@@ -1,0 +1,22 @@
+.loginForm {
+  background: #FFFFFF;
+  box-shadow: 0px 3.62642px 6.34624px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  width: 480px;
+  padding: 30px;
+  box-sizing: border-box;
+  margin: 20px auto 0;
+}
+
+.loginTitle {
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+
+.loginDescription {
+  color: #998080;
+  font-size: 18px;
+  margin: 0 0 20px 0;
+}
