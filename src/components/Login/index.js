@@ -42,6 +42,8 @@ const Login = () => {
 
     if (data.token) {
       dispatch(userLoggedIn(email))
+      localStorage.setItem('loggedInUserToken', data.token)
+      localStorage.setItem('loggedInUserEmail', email)
     }
   }
 

@@ -1,4 +1,17 @@
+.header {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
 .logo {
   width: 158px;
   height: auto;
+}
+
+.loginLink, .loggedInUserEmail {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  margin-left: auto;
 }

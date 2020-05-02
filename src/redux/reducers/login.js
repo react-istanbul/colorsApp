@@ -1,7 +1,6 @@
 const defaultState = {
   isUserLoggedIn: false,
-  userName: 'Sinan',
-  userAge: 18
+  userEmail: null
 }
 
 const loginReducer = (state = defaultState, action) => {
@@ -9,7 +8,7 @@ const loginReducer = (state = defaultState, action) => {
     case 'USER_LOGGED_IN':
       return {
         ...state,
-        userName: action.payload.userName,
+        userEmail: action.payload.userEmail,
         isUserLoggedIn: true
       }
 
