@@ -9,17 +9,34 @@
 
 .preview {
   display: flex;
+  flex-direction: column;
   height: 240px;
   border-top-left-radius: 9px;
   border-top-right-radius: 9px;
   align-items: center;
-  justify-content: center;
+  justify-content: center;  
+  cursor: pointer;
 }
 
 .hex {
   font-weight: bold;
   font-size: 36px;
   color: white;
+}
+
+.hoverText {
+  color: white;
+  margin-top: 8px;
+  font-size: 18px;
+  visibility: hidden;
+  margin-bottom: -28px;
+  opacity: 0;
+  transition: opacity 0.15s ease-in;
+}
+
+.preview:hover .hoverText {
+  visibility: visible;
+  opacity: 1;
 }
 
 .decription {
