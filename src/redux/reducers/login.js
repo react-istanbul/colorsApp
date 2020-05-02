@@ -4,10 +4,8 @@ const defaultState = {
   userAge: 18
 }
 
-
 const loginReducer = (state = defaultState, action) => {
   switch (action.type) {
-
     case 'USER_LOGGED_IN':
       return {
         ...state,
@@ -15,11 +13,9 @@ const loginReducer = (state = defaultState, action) => {
         isUserLoggedIn: true
       }
 
-
     default:
       return state
   }
 }
-
 
 export default loginReducer
