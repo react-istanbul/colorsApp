@@ -1,0 +1,50 @@
+.colorCard {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 3.62642px 6.34624px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  width: 260px;
+  height: 340px;
+}
+
+.preview {
+  display: flex;
+  height: 240px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hex {
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
+}
+
+.decription {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.info {
+  display: flex;
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.infoTitle {
+  color: #756A6A;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.infoValue {
+  color: #BF9E9E;
+}
