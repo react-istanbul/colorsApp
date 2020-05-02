@@ -66,6 +66,10 @@ const Login = () => {
           value={password}
           handleChange={(e) => setPassword(e.target.value)}
         />
+        <div className={styles.tip}>
+          Tip: Use <span className={styles.textToSelect}>eve.holt@reqres.in</span> /{' '}
+          <span className={styles.textToSelect}>cityslicka</span> to log in.
+        </div>
         <LoginButton disabled={isLoading || email === '' || password === ''}>
           Login
         </LoginButton>
