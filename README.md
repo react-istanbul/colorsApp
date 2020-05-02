@@ -2,7 +2,7 @@
 
 ![screenshot](https://colorsapp.wunnle.dev/screenshot.png)
 
-The app I've built while live streaming to show how to create a React app from scratch using React Router, Redux, Redux Thunk and hooks. The app uses [Req Res API](https://reqres.in/).
+The app I've built while live streaming as a tutorial to create a React app from scratch using React Router, Redux, Redux Thunk and hooks. The app uses [Req Res API](https://reqres.in/).
 
 This was an event for our meetup group [ReactJS Istanbul](https://www.meetup.com/ReactJS-Istanbul/).
 
