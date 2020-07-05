@@ -3,7 +3,6 @@ import { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Redirect } from 'react-router-dom'
 
-import { userLoggedIn } from '../../redux/actions/login'
 import { postData } from '../../utils/helpers'
 import Header from '../Header'
 import Input from '../Input'
@@ -11,6 +10,7 @@ import LoginButton from '../LoginButton'
 import LoginForm from '../LoginForm'
 import LoginErrorBar from '../LoginForm/LoginErrorBar'
 import styles from './Login.module.css'
+import loginSlice from './loginSlice'
 
 const Login = () => {
   const dispatch = useDispatch()
@@ -41,7 +41,7 @@ const Login = () => {
     }
 
     if (data.token) {
-      dispatch(userLoggedIn(email))
+      dispatch(loginSlice.actions.userLoggedIn(email))
       localStorage.setItem('loggedInUserToken', data.token)
       localStorage.setItem('loggedInUserEmail', email)
     }
