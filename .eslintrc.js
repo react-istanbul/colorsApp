@@ -1,9 +1,15 @@
 module.exports = {
   "extends": [
-    "eslint:recommended",
     "react-app",
+    "eslint:recommended",
     "plugin:prettier/recommended"
   ],
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true,
+    "jest": true
+},
   "plugins": [
     "simple-import-sort"
   ],
