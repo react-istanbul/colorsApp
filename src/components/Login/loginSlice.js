@@ -12,8 +12,6 @@ const loginSlice = createSlice({
     userLoggedIn: (state, action) => {
       state.userEmail = action.payload
       state.isUserLoggedIn = true
-
-      return state
     }
   }
 })

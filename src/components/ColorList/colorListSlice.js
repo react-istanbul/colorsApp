@@ -18,27 +18,18 @@ const colorListSlice = createSlice({
   initialState,
   extraReducers: {
     [fetchColorList.pending]: (state) => {
-      return {
-        ...state,
-        error: null,
-        isLoading: true,
-        colors: []
-      }
+      state.error = null
+      state.isLoading = true
+      state.colors = []
     },
     [fetchColorList.fulfilled]: (state, action) => {
-      return {
-        ...state,
-        error: null,
-        isLoading: false,
-        colors: action.payload
-      }
+      state.error = null
+      state.isLoading = false
+      state.colors = action.payload
     },
     [fetchColorList.rejected]: (state, action) => {
-      return {
-        ...state,
-        isLoading: false,
-        error: action.payload
-      }
+      state.isLoading = false
+      state.error = action.payload
     }
   }
 })
