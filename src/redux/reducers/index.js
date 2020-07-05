@@ -1,6 +1,9 @@
 import { combineReducers } from 'redux'
 
+import colorListSlice from '../../components/ColorList/colorListSlice'
 import loginSlice from '../../components/Login/loginSlice'
-import colors from './colors'
 
-export default combineReducers({ login: loginSlice.reducer, colors })
+export default combineReducers({
+  login: loginSlice.reducer,
+  colors: colorListSlice.reducer
+})
