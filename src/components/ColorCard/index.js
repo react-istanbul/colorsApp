@@ -1,8 +1,6 @@
 import Copy from 'copy-text-to-clipboard'
 import PropTypes from 'prop-types'
-import React from 'react'
-import { useState } from 'react'
-import { useEffect } from 'react'
+import React, { useState } from 'react'
 
 import styles from './ColorCard.module.css'
 

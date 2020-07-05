@@ -1,8 +1,11 @@
-import React from 'react'
 import { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
 
-import { userLoggedIn } from '../../redux/actions/login'
+import loginSlice from '../Login/loginSlice'
+
+const {
+  actions: { userLoggedIn }
+} = loginSlice
 
 const LoginPersister = () => {
   const dispatch = useDispatch()

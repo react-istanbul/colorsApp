@@ -3,16 +3,16 @@ import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
 import { selectAreColorsLoading, selectColors } from '../../redux/accessors'
-import { getColors } from '../../redux/actions/colors'
 import ColorCard from '../ColorCard'
 import Header from '../Header'
-import styles from './Home.module.css'
+import styles from './ColorList.module.css'
+import { fetchColorList } from './colorListSlice'
 
-const Home = () => {
+const ColorList = () => {
   const dispatch = useDispatch()
 
   useEffect(() => {
-    dispatch(getColors())
+    dispatch(fetchColorList())
   }, [dispatch])
 
   const isLoading = useSelector(selectAreColorsLoading)
@@ -36,4 +36,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default ColorList
